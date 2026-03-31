@@ -100,7 +100,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
     
     # MENSAJE 2: Imagen sin texto
-    url_imagen = "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600"
+    url_imagen = "https://postimg.cc/ZBWGPTR8"
     try:
         await update.message.reply_photo(photo=url_imagen)
     except:
